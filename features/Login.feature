@@ -1,6 +1,6 @@
 Feature: Login with valid credentials
 
-@sanity
+@sanity @regression
      Scenario:Successfull login with valid credentials
        Given user Launch browser
        And opens url "http://localhost/opencart/upload/index.php?route=common/home&language=en-gb"

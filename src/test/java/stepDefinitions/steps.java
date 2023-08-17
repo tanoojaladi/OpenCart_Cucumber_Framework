@@ -1,10 +1,11 @@
 package stepDefinitions;
 
 
-
+import java.io.*;
 import java.time.Duration;
 import java.util.HashMap;
 import java.util.List;
+import java.util.Properties;
 import java.util.ResourceBundle;
 
 import org.apache.logging.log4j.LogManager;
@@ -24,6 +25,7 @@ import io.cucumber.java.en.*;
 import pageObjects.*;
 import utilities.DataReader;
 
+
 public class steps {
 
 	WebDriver driver;
@@ -36,11 +38,18 @@ public class steps {
 	List<HashMap<String, String>> exceldata;
 	
 	@Before
-	public void setUp()
+	public void setUp() throws IOException
 	{
 		logger=LogManager.getLogger(this.getClass());
-		rb=ResourceBundle.getBundle("config");
-		br=rb.getString("browser");
+		//rb=ResourceBundle.getBundle("config");
+		//br=rb.getString("browser");
+		
+		File configFile=new File(".//src/test/resources/config.properties");
+		FileInputStream fis=new FileInputStream(configFile);
+		Properties pro=new Properties();
+		pro.load(fis);
+		br=pro.getProperty("browser");
+		
 	}
 	
 	@After
