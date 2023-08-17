@@ -1,0 +1,24 @@
+12:32:14.326 [main] INFO  stepDefinitions.steps - clicked on My Account
+12:32:15.025 [main] INFO  stepDefinitions.steps - clicked on login
+12:32:15.292 [main] INFO  stepDefinitions.steps - Entered email
+12:32:15.408 [main] INFO  stepDefinitions.steps - Entered password
+12:32:15.476 [main] INFO  stepDefinitions.steps - clicked on login button
+12:32:16.903 [main] INFO  stepDefinitions.steps - My Account page is existed and test passed
+12:36:35.946 [main] INFO  stepDefinitions.steps - clicked on My Account
+12:36:36.669 [main] INFO  stepDefinitions.steps - clicked on login
+12:36:36.929 [main] INFO  stepDefinitions.steps - Entered email
+12:36:37.071 [main] INFO  stepDefinitions.steps - Entered password
+12:36:37.137 [main] INFO  stepDefinitions.steps - clicked on login button
+12:36:38.458 [main] INFO  stepDefinitions.steps - My Account page is existed and test passed
+12:37:39.234 [main] INFO  stepDefinitions.steps - clicked on My Account
+12:37:39.915 [main] INFO  stepDefinitions.steps - clicked on login
+12:37:40.194 [main] INFO  stepDefinitions.steps - Entered email
+12:37:40.325 [main] INFO  stepDefinitions.steps - Entered password
+12:37:40.393 [main] INFO  stepDefinitions.steps - clicked on login button
+12:37:41.401 [main] INFO  stepDefinitions.steps - My Account page is existed and test passed
+12:40:27.196 [main] INFO  stepDefinitions.steps - clicked on My Account
+12:40:28.107 [main] INFO  stepDefinitions.steps - clicked on login
+12:40:28.390 [main] INFO  stepDefinitions.steps - Entered email
+12:40:28.503 [main] INFO  stepDefinitions.steps - Entered password
+12:40:28.561 [main] INFO  stepDefinitions.steps - clicked on login button
+12:40:29.860 [main] INFO  stepDefinitions.steps - My Account page is existed and test passed
